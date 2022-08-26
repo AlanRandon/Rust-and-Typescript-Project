@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "incremental": true,
+      "noEmit": true,
+      "moduleResolution": "node",
+      "module": "esnext",
+      "target": "esnext",
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "strict": true,
+      "preserveConstEnums": true,
+      "noUnusedLocals": true,
+      "allowUnreachableCode": false,
+      "alwaysStrict": true,
+      "noUnusedParameters": true,
+      "lib": ["esnext", "dom"],
+      "typeRoots": ["./node_modules/@types", "./types"]
+    },
+    "include": ["*.ts", "types/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  

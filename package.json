@@ -1,0 +1,19 @@
+{
+  "name": "wasm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:rust": "wasm-pack build --target nodejs && npm i",
+    "build:typescript": "esbuild index.ts --outfile=index.js --bundle=true --platform=node --target=node16.13 --format=esm --external:./node_modules/*",
+    "start": "npm run build:rust && npm run build:typescript && node .",
+    "format": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.38",
+    "wasm_test": "file:./pkg"
+  },
+  "type": "module"
+}

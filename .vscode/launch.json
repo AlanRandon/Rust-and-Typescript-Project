@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "command": "npm start",
+            "name": "Build and run",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
