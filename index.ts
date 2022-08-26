@@ -1,3 +1,3 @@
-import { main } from "wasm_test"
+import { greet } from "wasm_test"
 
-main()
+greet("makka pakka")

@@ -8,6 +8,6 @@ extern "C" {
 }
 
 #[wasm_bindgen]
-pub fn main() {
-    log(&format!("Hello, {}!", ":)"));
+pub fn greet(name: &str) {
+    log(&format!("Hello, {}! ☺️", name));
 }
