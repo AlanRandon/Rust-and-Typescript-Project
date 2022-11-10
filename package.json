@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.14.38",
+    "typescript": "^4.8.2",
     "wasm_test": "file:./pkg"
   },
   "type": "module"
